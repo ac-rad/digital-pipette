@@ -1,14 +1,11 @@
 #include <Servo.h>
-
 Servo myServo;
 
-int len0 = 1820;
-int len5 = 1522;
-int len10 = 1286;
-
+#define len0 (1820)
 #define PIN_SERVO (8)
 
-void setup() {
+void setup()
+{
   Serial.begin(9600);
   Serial.println("Start!");
   myServo.attach(PIN_SERVO);
@@ -16,22 +13,20 @@ void setup() {
   delay(5000);
 }
 
-void loop() {
-  char key;
-   if (Serial.available()) {
-     key = Serial.read();
-     Serial.println(key);
-     switch (key) {
-      case 'a':
-        myServo.writeMicroseconds(len10);
-        break;
-      case '5':
-        myServo.writeMicroseconds(len5);
-        break;
-      case '0':
-        myServo.writeMicroseconds(len0);
-        break;
+
+void loop()
+{
+   if ( Serial.available() ) {
+     String len_str = Serial.readString();
+     Serial.print("Received Value: ");
+     Serial.println(len_str);
+     int len = len_str.toInt();
+     if (len >= 1000 && len <= 2000)
+     {
+        Serial.println("Valid value");
+        myServo.writeMicroseconds(len);
+     } else {
+        Serial.println("Invalid value");
      }
-     delay(1000);
    }
 }
