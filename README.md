@@ -6,6 +6,14 @@ This repository contains CAD files and programs for the digital pipette project.
 - `design/` contains design files for 3D printer
 - `src/` contains the source code to control pipette
 
+## Circuit diagram (wired)
+![](images/circuit.png)
+
+Don't forget to connect GND of 6V power and Arduino.
+
+## Circuit diagram (wireless)
+In preparation.
+
 ## Video
 https://user-images.githubusercontent.com/29328746/236104835-9dc766c4-92dd-4aab-9998-5ebd59588d73.mp4
 
