@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you find this useful in your research, please consider citing as below."
+title: "Digital pipette"
+authors:
+- family-names: "Yoshikawa"
+  given-names: "Naruki"
+- family-names: "Darvish"
+  given-names: "Kourosh"
+- family-names: "Garg"
+  given-names: "Animesh"
+- family-names: "Aspuru-Guzik"
+  given-names: "Alan"
+version: 1.0.0
+doi: 10.5281/zenodo.7893805
+date-released: 2023-03-05
+url: "https://github.com/ac-rad/digital-pipette/"
+preferred-citation:
+  type: article
+  title: "Digital pipette: Open hardware for liquid transfer in self-driving laboratories"
+  authors:
+  - family-names: "Yoshikawa"
+    given-names: "Naruki"
+  - family-names: "Darvish"
+    given-names: "Kourosh"
+  - family-names: "Garg"
+    given-names: "Animesh"
+  - family-names: "Aspuru-Guzik"
+    given-names: "Alan"
+  date-published: 2023-03-05
+  doi: 10.26434/chemrxiv-2023-nvxkg
+  journal: ChemRxiv
+  year: 2023
