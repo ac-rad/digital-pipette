@@ -6,6 +6,8 @@ authors:
   given-names: "Naruki"
 - family-names: "Darvish"
   given-names: "Kourosh"
+- family-names: "Ghazi Vakili"
+  given-names: "Mohammad"
 - family-names: "Garg"
   given-names: "Animesh"
 - family-names: "Aspuru-Guzik"
@@ -22,11 +24,13 @@ preferred-citation:
     given-names: "Naruki"
   - family-names: "Darvish"
     given-names: "Kourosh"
+  - family-names: "Ghazi Vakili"
+    given-names: "Mohammad"
   - family-names: "Garg"
     given-names: "Animesh"
   - family-names: "Aspuru-Guzik"
     given-names: "Alan"
-  date-published: 2023-03-05
-  doi: 10.26434/chemrxiv-2023-nvxkg
-  journal: ChemRxiv
+  date-published: 2023-10-04
+  doi: 10.1039/D3DD00115F
+  journal: Digital Discovery
   year: 2023

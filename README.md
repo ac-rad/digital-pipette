@@ -1,7 +1,7 @@
 # Digital pipette
 [![DOI](https://zenodo.org/badge/598303344.svg)](https://zenodo.org/badge/latestdoi/598303344)
 
-This repository contains CAD files and programs for [Digital pipette: Open hardware for liquid transfer in self-driving laboratories](https://doi.org/10.26434/chemrxiv-2023-nvxkg)
+This repository contains CAD files and programs for [Digital pipette: Open hardware for liquid transfer in self-driving laboratories](https://doi.org/10.1039/D3DD00115F)
 
 ## Demo Video
 https://user-images.githubusercontent.com/29328746/236104835-9dc766c4-92dd-4aab-9998-5ebd59588d73.mp4
@@ -55,11 +55,15 @@ If you find this useful in your research, please consider citing as below.
 
 ```
 @article{yoshikawa2023digital,
-  title = {{Digital pipette: Open hardware for liquid transfer in self-driving laboratories}},
-  author = {Yoshikawa, Naruki and Darvish, Kourosh and Garg, Animesh and Aspuru-Guzik, Alan},
-  journal = {ChemRxiv},
-  year = {2023},
-  doi = {10.26434/chemrxiv-2023-nvxkg}
+  author = "Yoshikawa, Naruki and Darvish, Kourosh and Vakili, Mohammad Ghazi and Garg, Animesh and Aspuru-Guzik, Al{\'a}n",
+  title = "Digital pipette: open hardware for liquid transfer in self-driving laboratories",
+  journal = "Digital Discovery",
+  year = "2023",
+  volume = "2",
+  issue = "6",
+  pages = "1745-1751",
+  publisher = "Royal Society of Chemistry",
+  doi = "10.1039/D3DD00115F"
 }
 ```
 
