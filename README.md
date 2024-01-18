@@ -28,7 +28,7 @@ Basic electronic Parts to build a circuit (e.g. breadboard, cables, soldering ir
 Although it is not drawn explicitly, please make sure that the GND of Arduino and DC 6V power supply are connected.
 
 ## Build instruction
-1. Prepare items shown in the bill of materials. Print the [platform](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/platform.stl), [plunger holder](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/holder.stl) and [syringe cover](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/cover.stl) with a 3D printer. The length linear actuator should be adjusted before building by using an Arduino and the provided code. A screwdriver and pliers are helpful to tighten screws.
+1. Prepare items shown in the bill of materials. Print the [platform](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/platform.stl), [plunger holder](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/holder.stl) and [syringe cover](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/cover.stl) with a 3D printer. The length of the linear actuator should be adjusted before building by using an Arduino and the provided code. A screwdriver and pliers are helpful to tighten screws.
 <img src="https://github.com/ac-rad/digital-pipette/assets/29328746/65dbc788-4889-4268-b346-5a5cf6f65cf1" width="600">
 
 2. Connect the linear actuator and the plunger holder with a short screw and a nut.
