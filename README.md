@@ -28,22 +28,28 @@ Basic electronic Parts to build a circuit (e.g. breadboard, cables, soldering ir
 Although it is not drawn explicitly, please make sure that the GND of Arduino and DC 6V power supply are connected.
 
 ## Build instruction
-1. Prepare items shown in the bill of materials. Print the [platform](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/platform.stl), [plunger holder](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/holder.stl) and [syringe cover](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/cover.stl) with a 3D printer. The length of the linear actuator should be adjusted before building by using an Arduino and the provided code. A screwdriver and pliers are helpful to tighten screws.
+### Step 1
+Prepare items shown in the bill of materials. Print the [platform](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/platform.stl), [plunger holder](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/holder.stl) and [syringe cover](https://github.com/ac-rad/digital-pipette/blob/main/design/stl/cover.stl) with a 3D printer. The length of the linear actuator should be adjusted before building by using an Arduino and the provided code. A screwdriver and pliers are helpful to tighten screws.
+
 <img src="https://github.com/ac-rad/digital-pipette/assets/29328746/65dbc788-4889-4268-b346-5a5cf6f65cf1" width="600">
 
-2. Connect the linear actuator and the plunger holder with a short screw and a nut.
+### Step 2
+Connect the linear actuator and the plunger holder with a short screw and a nut.
 
 https://github.com/ac-rad/digital-pipette/assets/29328746/378bcaca-c717-46af-9cfb-5fd15bf9850b
 
-3. Connect the linear actuator and the platform with plastic parts shipped with the actuator, screws (short and long), and nuts.
+### Step 3
+Connect the linear actuator and the platform with plastic parts shipped with the actuator, screws (short and long), and nuts.
 
 https://github.com/ac-rad/digital-pipette/assets/29328746/e1789dd6-4c45-4c4c-84f6-89d388aaab22
 
-4. Connect the syringe plunger with the plunger holder. Fasten the syringe with the platform and the syringe cover.
+### Step 4
+Connect the syringe plunger with the plunger holder. Fasten the syringe with the platform and the syringe cover.
 
 https://github.com/ac-rad/digital-pipette/assets/29328746/42ebc0b9-3168-43e8-8522-d95415921b36
 
-5. Connect the linear actuator with the electric circuit.
+### Step 5
+Connect the linear actuator with the electric circuit.
 
 ## Source code
 [src](https://github.com/ac-rad/digital-pipette/tree/main/src) directory contains an example code to operate the digital pipette.
